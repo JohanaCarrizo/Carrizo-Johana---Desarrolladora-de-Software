@@ -114,7 +114,7 @@
   .entry ul{ list-style:none; display:flex; flex-direction:column; gap:7px; }
   .entry li{ font-size:14.5px; color:var(--muted); padding-left:16px; position:relative; }
   .entry li::before{ content:"›"; position:absolute; left:0; color:var(--mint); }
-  .subgroup{ margin-top:18px; }
+  .subgroup{ margin-top:17px; }
   .subgroup .sub{ margin-bottom:10px; }
 
   @media (max-width:640px){ .entry{ grid-template-columns:1fr; gap:6px; } }
